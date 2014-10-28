@@ -43,7 +43,7 @@ Ext.define('Jarvus.touch.viewport.FieldScroller', {
         }
     }
 }, function() {
-    Ext.onReady(function() {
+    Ext.onSetup(function() {
         Ext.Viewport.on('resize', 'scrollFocusedFieldIntoView');
     });
 });
